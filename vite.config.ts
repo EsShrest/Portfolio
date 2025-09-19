@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/Portfolio/',
+      // Use relative base so deployment works whether served at / or /Portfolio/
+      base: './',
       plugins: [react()],
       build: {
         outDir: 'dist',
