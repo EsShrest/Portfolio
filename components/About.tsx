@@ -39,7 +39,7 @@ const About: React.FC = () => {
               className="w-32 h-32 rounded-full mb-6 border-4 border-zinc-700"
             />
             <h3 className="text-2xl font-semibold text-white mb-1">Eshan Shrestha</h3>
-            <p className="text-amber-400 mb-6">Creative Director & Developer</p>
+            <p className="text-amber-400 mb-6">Undergraduate Student @ Texas Tech University</p>
             <div className="space-y-4 text-left w-full">
               <div className="flex items-center p-3 bg-zinc-900/50 rounded-lg">
                 <MailIcon className="w-5 h-5 mr-3 text-amber-400" />
