@@ -47,7 +47,7 @@ const Resume: React.FC = () => {
             </h3>
             <div className="relative">
               <TimelineItem
-                title="Grading Assistant – Whitacre College of Engineering"
+                title="Undergraduate Grading Assistant – Whitacre College of Engineering"
                 date="Aug 2025 – Present"
                 institution="Texas Tech University, Lubbock, TX"
               >

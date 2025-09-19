@@ -8,7 +8,6 @@ const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => 
       {children}
       <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-amber-400"></span>
     </h2>
-    <p className="text-zinc-400 mt-4 max-w-2xl mx-auto">Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.</p>
   </div>
 );
 

@@ -43,15 +43,15 @@ const About: React.FC = () => {
             <div className="space-y-4 text-left w-full">
               <div className="flex items-center p-3 bg-zinc-900/50 rounded-lg">
                 <MailIcon className="w-5 h-5 mr-3 text-amber-400" />
-                <span className="text-zinc-300">eshan@example.com</span>
+                <span className="text-zinc-300">Shanoy921@gmail.com</span>
               </div>
               <div className="flex items-center p-3 bg-zinc-900/50 rounded-lg">
                 <PhoneIcon className="w-5 h-5 mr-3 text-amber-400" />
-                <span className="text-zinc-300">+1 (555) 123-4567</span>
+                <span className="text-zinc-300">+1 9799433700</span>
               </div>
               <div className="flex items-center p-3 bg-zinc-900/50 rounded-lg">
                 <LocationMarkerIcon className="w-5 h-5 mr-3 text-amber-400" />
-                <span className="text-zinc-300">San Francisco, CA</span>
+                <span className="text-zinc-300">Lubbock, TX</span>
               </div>
             </div>
           </div>
