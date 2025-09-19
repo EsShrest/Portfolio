@@ -1,0 +1,5 @@
+{
+  "name": "SnapFolio Portfolio",
+  "description": "A modern, single-page portfolio website built with React and Tailwind CSS, inspired by a sleek, dark-themed design. Features sections for home, about, resume, portfolio, and contact.",
+  "requestFramePermissions": []
+}
