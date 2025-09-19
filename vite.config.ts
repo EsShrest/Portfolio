@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // Use relative base so deployment works whether served at / or /Portfolio/
-      base: './',
+  // Use explicit repo base for GitHub Pages test
+  base: '/Portfolio/',
       plugins: [react()],
       build: {
         outDir: 'dist',

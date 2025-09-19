@@ -16,8 +16,8 @@ const App: React.FC = () => {
         <Resume />
         <Portfolio />
         <Contact />
-        <footer className="text-center py-8 text-zinc-500 border-t border-zinc-800 mt-12">
-          © Copyright SnapFolio. All Rights Reserved
+        <footer className="text-center py-8 text-zinc-500 border-t border-zinc-800 mt-12 text-sm">
+          © SnapFolio. All Rights Reserved | Deploy marker: v1-portfolio-test
         </footer>
       </main>
     </div>
