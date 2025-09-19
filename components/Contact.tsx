@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
         <div className="bg-amber-400/10 border border-amber-400/20 p-8 rounded-2xl">
         <h3 className="text-2xl font-bold text-white mb-4">Contact Info</h3>
         <p className="text-zinc-300 mb-8">
-          Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+          Based in Lubbock, TX — open to internships, part‑time software roles, and collaboration on engineering projects.
         </p>
         <div className="space-y-6">
           <ContactInfoItem icon={<PhoneIcon />} title="Phone Number">
