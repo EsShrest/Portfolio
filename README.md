@@ -1,20 +1,25 @@
-Single‑page React + Vite portfolio deployed via GitHub Pages. Includes responsive sidebar navigation, animated sections, and an EmailJS‑powered contact form.
+# Eshan Shrestha — Portfolio
 
-## Local Instructions
+Live: https://esshrest.github.io/Portfolio/
 
-1. Install dependencies:
-   `npm install`
-2. Create `.env.local` with your EmailJS keys:
-```
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-```
-3. Start dev server:
-   `npm run dev`
-4. Production build:
-   `npm run build`
-5. Deploy to GitHub Pages branch:
-   `npm run deploy`
+What’s inside
+- Software Engineering: MERN projects, APIs, auth, and responsive UI.
+- AI & Data: NLP and sentiment analysis (VADER/NTLK).
+- Cybersecurity: Secure coding patterns and access control.
 
-The `gh-pages` package publishes the contents of `dist/` to the `gh-pages` branch.
+Highlights
+- TypeScript + Vite; clean, dark UI with Tailwind (CDN).
+- Project sections with left/right navigation; up to 3 cards visible.
+- EmailJS contact form; resume available to view or download.
+
+Skills snapshot
+- JavaScript/TypeScript, React, Node.js/Express, MongoDB
+- Python (NLP), SQL, JWT/Auth, Tailwind CSS
+
+Contact
+- Email: Shanoy921@gmail.com
+- LinkedIn: https://www.linkedin.com/in/eshan-shrestha
+
+Notes for reviewers
+- Main components live in `components/` with routing via in-page anchors.
+- Projects organized in `components/Portfolio.tsx` by category.
