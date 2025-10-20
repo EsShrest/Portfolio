@@ -49,16 +49,16 @@ const Portfolio: React.FC = () => {
         {
           title: 'E-Commerce Database Management System',
           description: 'RESTful API (Node.js, Express, MongoDB) with JWT auth, role-based access, email verification, secure file upload, and robust validation.',
-          tags: ['Node.js', 'Express', 'MongoDB', 'JWT', 'REST'],
+          tags: ['Node.js', 'Express', 'MongoDB', 'JWT', 'REST', 'API','MERN Stack'],
           githubUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System',
           liveUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System'
         },
         {
           title: 'E-Commerce React Frontend',
-          description: 'Responsive React + Tailwind client with protected routes, form validation, and integration to backend API for auth, inventory, and uploads.',
-          tags: ['React', 'Tailwind', 'Auth', 'Frontend'],
-          githubUrl: 'https://github.com/EsShrest/VADER-Sentiment-Analysis',
-          liveUrl: 'https://github.com/EsShrest/VADER-Sentiment-Analysis'
+          description: 'React frontend for e-commerce platform with product browsing, cart management, and user authentication.',
+          tags: ['React', 'Auth', 'Frontend', 'MERN Stack'],
+          githubUrl: 'https://github.com/EsShrest/React-Interface-for-Database-WIP-',
+          liveUrl: 'https://github.com/EsShrest/React-Interface-for-Database-WIP-'
         },
         {
           title: 'Inventory Admin UI',
@@ -101,6 +101,13 @@ const Portfolio: React.FC = () => {
           tags: ['Python', 'NLTK', 'NLP', 'Sentiment'],
           githubUrl: 'https://github.com/EsShrest/VADER-Sentiment-Analysis',
           liveUrl: 'https://github.com/EsShrest/VADER-Sentiment-Analysis'
+        },
+         {
+          title: 'Local Discord Chat Moderator',
+          description: 'A Discord bot for moderating chat channels using Ollama to locally run large language models and process messages containing profanity.',
+          tags: ['Python', 'Discord', 'Ollama', 'Moderation'],
+          githubUrl: 'https://github.com/EsShrest/Local-AI-Discord-Content-Filter',
+          liveUrl: 'https://github.com/EsShrest/Local-AI-Discord-Content-Filter'
         }
       ]
     }
@@ -171,20 +178,6 @@ const Portfolio: React.FC = () => {
                   </button>
                 )}
               </div>
-              {canScroll && (
-                <div className="flex justify-center mt-6 gap-2">
-                  {cat.projects.map((_, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setIndices((prev) => ({ ...prev, [cat.key]: i }))}
-                      aria-label={`Start view at project ${i + 1}`}
-                      className={`w-3 h-3 rounded-full transition-colors ${
-                        i === activeIndex ? 'bg-amber-400' : 'bg-zinc-600 hover:bg-zinc-500'
-                      }`}
-                    />
-                  ))}
-                </div>
-              )}
             </div>
           );
         })}
