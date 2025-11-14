@@ -59,34 +59,6 @@ const Portfolio: React.FC = () => {
           tags: ['React', 'Auth', 'Frontend', 'MERN Stack'],
           githubUrl: 'https://github.com/EsShrest/React-Interface-for-Database-WIP-',
           liveUrl: 'https://github.com/EsShrest/React-Interface-for-Database-WIP-'
-        },
-        {
-          title: 'Inventory Admin UI',
-          description: 'Admin interface concept for managing products, users, and orders; focuses on UX patterns and stateful UI.',
-          tags: ['React', 'UI', 'State'],
-          githubUrl: '#',
-          liveUrl: '#'
-        },
-        {
-          title: 'Order Service API',
-          description: 'Exploratory microservice for order processing with validation and basic observability.',
-          tags: ['Node.js', 'Service'],
-          githubUrl: '#',
-          liveUrl: '#'
-        }
-      ]
-    },
-    {
-      key: 'cyber',
-      title: 'Cybersecurity',
-      blurb: 'Secure coding, authentication patterns, and foundational analysis.',
-      projects: [
-        {
-          title: 'Auth & Access Patterns Lab',
-          description: 'JWT flows, role segmentation, and input hardening patterns inspired by production e-commerce API work.',
-          tags: ['Security', 'JWT', 'Hardening'],
-          githubUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System',
-          liveUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System'
         }
       ]
     },
@@ -103,11 +75,32 @@ const Portfolio: React.FC = () => {
           liveUrl: 'https://github.com/EsShrest/VADER-Sentiment-Analysis'
         },
          {
-          title: 'Local Discord Chat Moderator',
+          title: 'AI-Powered Chat Filter',
           description: 'A Discord bot for moderating chat channels using Ollama to locally run large language models and process messages containing profanity.',
           tags: ['Python', 'Discord', 'Ollama', 'Moderation'],
           githubUrl: 'https://github.com/EsShrest/Local-AI-Discord-Content-Filter',
           liveUrl: 'https://github.com/EsShrest/Local-AI-Discord-Content-Filter'
+        },
+        {
+          title: 'Concrete Strength Analysis',
+          description: 'Group project analyzing concrete manufacturers\' data with varying materials like ash, different temperatures, and resting times to predict compressive strength. Built models using Random Forest and Linear Regression, comparing performance based on metrics like R-squared and MSE.',
+          tags: ['Python', 'Machine Learning', 'Random Forest', 'Linear Regression'],
+          githubUrl: '#',
+          liveUrl: '#'
+        }
+      ]
+    },
+    {
+      key: 'cyber',
+      title: 'Cybersecurity',
+      blurb: 'Secure coding, authentication patterns, and foundational analysis.',
+      projects: [
+        {
+          title: 'Auth & Access Patterns Lab',
+          description: 'JWT flows, role segmentation, and input hardening patterns inspired by production e-commerce API work.',
+          tags: ['Security', 'JWT', 'Hardening'],
+          githubUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System',
+          liveUrl: 'https://github.com/EsShrest/E-Commerce-Backend-Management-System'
         }
       ]
     }
