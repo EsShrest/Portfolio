@@ -8,7 +8,7 @@ const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => 
       {children}
       <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-amber-400"></span>
     </h2>
-  <p className="text-zinc-400 mt-4 max-w-2xl mx-auto">Snapshot of my academic journey, hands‑on experience, and core technical strengths.</p>
+  <p className="text-zinc-400 mt-4 max-w-2xl mx-auto">Highlighting my academic achievements, research in deep learning for damage assessment, hands-on experience in software engineering and cybersecurity, and comprehensive technical strengths.</p>
   </div>
 );
 
@@ -68,14 +68,25 @@ const Resume: React.FC = () => {
             </h3>
             <div className="relative">
               <TimelineItem
+                title="Undergraduate Researcher – Whitacre College of Engineering"
+                date="Present – Dec 2025"
+                institution="Texas Tech University, Lubbock, TX"
+              >
+                <ul className="list-disc list-inside space-y-1">
+                  <li>Conducted research on post-tornado residential damage assessment using deep learning as part of the GMRE Lab, contributing to a research paper on automated damage evaluation.</li>
+                  <li>Implemented and modified convolutional neural network models, including U-Net and CLIP-based architectures, working with model structures, training workflows, and PyTorch.</li>
+                  <li>Built supervised semantic regression models to identify damage severity and affected areas in residential buildings using labeled image datasets, incorporating CUDA-based optimizations to improve training efficiency.</li>
+                </ul>
+              </TimelineItem>
+              <TimelineItem
                 title="Undergraduate Grading Assistant – Whitacre College of Engineering"
                 date="Aug 2025 – Present"
                 institution="Texas Tech University, Lubbock, TX"
               >
                 <ul className="list-disc list-inside space-y-1">
-                  <li>Evaluated C programming lab assignments for correctness, efficiency & standards.</li>
-                  <li>Helped design lab exercises, exams, and rubrics (recursion, pointers, ADTs, memory).</li>
-                  <li>Supported delivery: proctoring, feedback, grading consistency across large cohorts.</li>
+                  <li>Evaluated C programming lab assignments by reviewing, testing, and debugging student code for correctness, efficiency, and adherence to coding standards.</li>
+                  <li>Designed Data Structures curricula and assessments, including labs and rubrics covering recursion, pointers, linked lists, dynamic memory management, and ADTs.</li>
+                  <li>Supported course delivery by proctoring exams, providing structured feedback, and ensuring grading consistency across large student groups.</li>
                 </ul>
               </TimelineItem>
               <TimelineItem
@@ -138,14 +149,22 @@ const Resume: React.FC = () => {
                 <BriefcaseIcon className="w-6 h-6 mr-3 text-amber-400" />
                 Skills
               </h3>
-              <div className="grid sm:grid-cols-2 gap-4 text-sm">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
                 <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
                   <p className="text-amber-400 font-semibold mb-2">Programming & Tools</p>
-                  <p className="text-zinc-300 leading-relaxed">Python • C • Java • JavaScript • SQL • MongoDB • Express • React • Node.js</p>
+                  <p className="text-zinc-300 leading-relaxed">Python • C • Java • JavaScript • SQL • MongoDB • Express • React • Node.js • Git • Docker</p>
                 </div>
                 <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
                   <p className="text-amber-400 font-semibold mb-2">Certifications</p>
-                  <p className="text-zinc-300 leading-relaxed">MERN Development – Deerwalk Inst. of Techn. • Customer Service – Test Dome</p>
+                  <p className="text-zinc-300 leading-relaxed">Google Cybersecurity Professional (SIEM/SOAR, NIST CSF, Incident Response) • MERN Development – Deerwalk Inst. of Techn. • Customer Service – Test Dome</p>
+                </div>
+                <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
+                  <p className="text-amber-400 font-semibold mb-2">Security</p>
+                  <p className="text-zinc-300 leading-relaxed">Threat Analysis (MITRE ATT&CK) • Vulnerability Triage • Network & Infrastructure Security • Linux/Unix</p>
+                </div>
+                <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
+                  <p className="text-amber-400 font-semibold mb-2">Specialized</p>
+                  <p className="text-zinc-300 leading-relaxed">Computer Vision (U-Net, CLIP) • CUDA • Local LLM Inference • Cryptography Fundamentals</p>
                 </div>
               </div>
             </div>
