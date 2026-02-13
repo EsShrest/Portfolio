@@ -38,8 +38,8 @@ const Resume: React.FC = () => {
     <section id="resume" className="py-20">
       <SectionTitle>Resume</SectionTitle>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 -mt-4 mb-10">
-        <a
-          href="resume.pdf"
+          <a
+            href="/Portfolio/Eshan_shrestha_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-400 text-zinc-900 font-semibold text-sm shadow-md shadow-amber-400/20 hover:bg-amber-300 transition-colors"
@@ -48,8 +48,8 @@ const Resume: React.FC = () => {
           <DocumentTextIcon className="w-5 h-5" />
           <span>View Resume</span>
         </a>
-        <a
-          href="resume.pdf"
+          <a
+            href="/Portfolio/Eshan_shrestha_Resume.pdf"
           download
           className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-amber-400 text-amber-400 font-semibold text-sm hover:bg-amber-400/10 transition-colors"
           aria-label="Download resume as PDF"
