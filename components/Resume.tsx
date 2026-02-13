@@ -149,10 +149,10 @@ const Resume: React.FC = () => {
                 <BriefcaseIcon className="w-6 h-6 mr-3 text-amber-400" />
                 Skills
               </h3>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
                 <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
                   <p className="text-amber-400 font-semibold mb-2">Programming & Tools</p>
-                  <p className="text-zinc-300 leading-relaxed">Python • C • Java • JavaScript • SQL • MongoDB • Express • React • Node.js • Git • Docker</p>
+                  <p className="text-zinc-300 leading-relaxed">Python • C • Java • JavaScript • SQL • MongoDB • Express • React • Node.js • Git • Docker • Computer Vision (U-Net, CLIP) • CUDA • Local LLM Inference</p>
                 </div>
                 <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
                   <p className="text-amber-400 font-semibold mb-2">Certifications</p>
@@ -160,11 +160,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
                   <p className="text-amber-400 font-semibold mb-2">Security</p>
-                  <p className="text-zinc-300 leading-relaxed">Threat Analysis (MITRE ATT&CK) • Vulnerability Triage • Network & Infrastructure Security • Linux/Unix</p>
-                </div>
-                <div className="bg-zinc-800/60 p-4 rounded-lg border border-zinc-700">
-                  <p className="text-amber-400 font-semibold mb-2">Specialized</p>
-                  <p className="text-zinc-300 leading-relaxed">Computer Vision (U-Net, CLIP) • CUDA • Local LLM Inference • Cryptography Fundamentals</p>
+                  <p className="text-zinc-300 leading-relaxed">Threat Analysis (MITRE ATT&CK) • Vulnerability Triage • Network & Infrastructure Security • Linux/Unix • Cryptography Fundamentals</p>
                 </div>
               </div>
             </div>
